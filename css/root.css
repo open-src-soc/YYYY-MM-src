@@ -1,0 +1,46 @@
+:root {
+    /* RISC-V basic blue and yellow. */
+    --riscv-b:#011e41;
+    --riscv-y:#ffc72c;
+    font-family: 'Open Sans', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+}
+
+body {
+    background-color: #ffffff;
+}
+
+@media (min-width: 768px) { 
+    html article {
+        width: 90%;
+        margin: auto;
+    }
+}
+
+@media (min-width: 1024px) { 
+html article {
+    width: 70%;
+    margin: auto;
+}
+}
+
+html h2 {
+    color: var(--riscv-b);
+    font-weight: bold;
+}
+
+html h3 {
+    color: var(--riscv-y);
+    font-weight: bold;
+}
+
+html footer {
+    font-size: 62.5%;
+}
+
+html footer hr {
+    /* color or backgroud-color depending on the browser. */
+    color: var(--riscv-b);
+    background-color: var(--riscv-b);
+    height: 2px;
+    border: none;
+}
